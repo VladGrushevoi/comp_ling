@@ -14,9 +14,9 @@ const AppRouter = () => {
                 <Route exact path='/1-laba'>
                     <FirstLaba />
                 </Route>
-                <Route exact path='/2-laba'>
+                {/* <Route exact path='/2-laba'>
                     <SecondLaba />
-                </Route>
+                </Route> */}
                 <Route exact path='/3-laba'>
                     <ThirdLaba />
                 </Route>
