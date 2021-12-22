@@ -46,7 +46,8 @@ export const ThirdLaba = () => {
       const formData = () => {
         let data = []
         for (let i = 0; i < words.length; i++) {
-            let word = normalizeWord(words[i])
+            // let word = normalizeWord(words[i])
+            let word = words[i]
             if (data.filter(d => d.name === word).length >= 1) {
                 
             } else {
@@ -73,7 +74,7 @@ export const ThirdLaba = () => {
 
     return (
         <>
-            <h1>Третя лаба</h1>
+            <h1>Друга лаба</h1>
             <div className='title'>
                 <input type="file" id="file-input" />
                 <Button className='button' variant="contained" onClick={(e) => clickHandler(e)}>Почати</Button>

@@ -58,7 +58,7 @@ export const FourthLaba = () => {
 
     return (
         <>
-            <h1>Четверта лаба</h1>
+            <h1>Третя лаба</h1>
             <Container maxWidth="lg">
                 <form className='form' onSubmit={handleSubmit}>
                     <div>
